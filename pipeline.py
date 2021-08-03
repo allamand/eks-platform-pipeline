@@ -28,7 +28,7 @@ class Pipeline(cdk.Stack):
             # pylint: disable=line-too-long
             oauth_token=SecretValue.secrets_manager('github-token'),
             owner=SecretValue.secrets_manager('github-user').to_string(),
-            repo="eks-platform",
+            repo="eks-platform-pipeline",
             branch="main",
         )
 
