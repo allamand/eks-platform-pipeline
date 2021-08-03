@@ -1,0 +1,10 @@
+-c requirements.txt
+pylint
+bandit
+black
+coverage
+flake8
+isort
+mypy
+safety
+types-requests
