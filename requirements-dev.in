@@ -1,5 +1,4 @@
 -c requirements.txt
-pip-tools
 pylint
 bandit
 black
