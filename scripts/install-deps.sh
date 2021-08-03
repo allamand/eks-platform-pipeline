@@ -7,6 +7,7 @@ set -o verbose
 npm install
 
 # Install project dependencies
+python -m pip install --upgrade pip
 python -m pip install pip-tools pip-compile
 pip-compile --upgrade requirements-dev.in
 pip-compile --upgrade requirements.in
