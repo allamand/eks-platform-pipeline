@@ -277,7 +277,7 @@ class PlatformEKS(cdk.Construct):
         cluster_autoscaler_chart = self.eks_cluster.add_helm_chart(
             "cluster-autoscaler",
             chart="cluster-autoscaler",
-            version="9.9.2",
+            version="9.10.3",
             release="cluster-autoscaler",
             repository="https://kubernetes.github.io/autoscaler",
             namespace="kube-system",
