@@ -11,5 +11,5 @@ __pycache__
 cdk.out
 node_modules
 .mypy_cache
-cdk.context.json
+
 
